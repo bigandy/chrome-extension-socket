@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Andrew Socket Extension",
+	"version": "1.0.0",
+	"background": {
+		"scripts": ["main.js"],
+		"persistant": true
+	},
+
+	"chrome_url_overrides": {
+		"newtab": "newtab.html"
+	},
+    "permissions": [
+        "activeTab",
+        "*://*/*"
+    ]
+}

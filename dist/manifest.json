@@ -11,7 +11,12 @@
 		"newtab": "newtab.html"
 	},
     "permissions": [
-        "activeTab",
-        "*://*/*"
+        "webRequestBlocking",
+		"webRequest",
+		"activeTab",
+		"tabs",
+		"http://*/*",
+		"https://*/*",
+		"*://developer.mozilla.org/"
     ]
 }
